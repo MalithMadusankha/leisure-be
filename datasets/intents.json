@@ -1,0 +1,340 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me Ribot","I'm Ribot","I'm Ribot your virtual assistant"]
+  },
+
+  {"tag": "safari",
+  "patterns": ["Tell me about safari experiences.",
+    "Where can I go on a safari?",
+    "Recommend wildlife safari options.",
+    "What animals can I see on a safari?",
+    "Best places for animal spotting?",
+    "Are there guided safari tours?",
+    "Tell me about Yala National Park.",
+    "What's unique about Wilpattu National Park?",
+    "Can I see leopards in Udawalawe?",
+    "What's the best time for a safari?",
+    "Tell me about Minneriya National Park.",
+    "Any family-friendly safari destinations?",
+    "How long does a typical safari last?",
+    "What should I bring on a safari?",
+    "Are there morning and evening safari options?",
+    "Tell me about Bundala National Park.",
+    "What's the entrance fee for safaris?",
+    "Do I need to book a safari in advance?",
+    "Can I spot elephants in Wasgamuwa?",
+    "Are private safaris available?",
+    "Tell me about Gal Oya National Park.",
+    "What's the difference between jeep and walking safaris?",
+    "Which parks are best for bird watching?",
+    "Can I see crocodiles on a safari?",
+    "Tell me about Horton Plains National Park.",
+    "What's the best way to reach Udawalawe?",
+    "Are there safari lodges inside the parks?",
+    "Can I see sloth bears in Kumana?",
+    "Tell me about Kaudulla National Park.",
+    "Is Kala Wewa in Anuradhapura worth a visit?",
+    "Are night safaris available?",
+    "What's the weather like during safari season?",
+    "Tell me about the eco-friendly practices in parks.",
+    "Is it safe to do a safari with children?",
+    "Can I do multiple safaris in a day?",
+    "What's the ideal camera lens for wildlife photography?",
+    "Tell me about Lunugamvehera National Park.",
+    "Can I see water buffalo in Minneriya?",
+    "Are there any safari discounts for students?",
+    "What's the most common animal sighting?",
+    "Tell me about Pigeon Island National Park.",
+    "Can I do a self-drive safari?",
+    "Do I need a guide for a safari?",
+    "Are safaris accessible for people with disabilities?",
+    "Tell me about the best safari experiences you've heard.",
+    "Can I see peacocks in Uda Walawe?",
+    "Are there camping options in national parks?",
+    "What's the difference between a safari and a game drive?",
+    "What's the landscape like in Yala?"],
+
+  "responses": ["Sri Lanka's national parks like Yala, Wilpattu, and Udawalawe offer fantastic safari experiences to see elephants, leopards, and other wildlife."]
+  },
+{
+  "tag": "safari_budget",
+  "patterns": [
+    "How much does a safari cost?",
+    "What's the price of a safari?",
+    "Tell me about safari expenses.",
+    "Can you give me an idea of safari prices?",
+    "What's the budget for a wildlife tour?",
+    "Are safaris expensive?",
+    "How do safari costs vary?",
+    "Is there a budget-friendly safari option?",
+    "What's included in the safari cost?",
+    "Are there any discounts for group safaris?"
+  ],
+  "responses": [
+    "The cost of a safari varies depending on the national park, duration, and type of tour. On average, it can range from $50 to $150 per person."
+  ]
+},
+{
+  "tag": "safari_recommendation",
+  "patterns": [
+    "Can you recommend a good safari?",
+    "Which safari would you suggest?",
+    "What's your top safari recommendation?",
+    "Give me a safari option with diverse wildlife.",
+    "Suggest a safari for leopard sightings.",
+    "I'm looking for a unique safari experience.",
+    "Recommend a family-friendly safari.",
+    "Which park is best for bird watching?",
+    "What's the best safari for photography?"
+  ],
+  "responses": ["safari"]
+},
+{
+  "tag": "hiking",
+  "patterns": [
+    "Tell me about hiking trails in Sri Lanka.",
+    "Recommend some hiking spots.",
+    "Where can I go for a trekking adventure?",
+    "What are the best hiking destinations?",
+    "I'm interested in exploring hiking trails.",
+    "Give me details about hiking experiences.",
+    "Tell me about popular mountain hikes.",
+    "What's the difficulty level of hiking in Sri Lanka?",
+    "Suggest some beginner-friendly hikes.",
+    "Where can I find challenging hiking trails?",
+    "Are there guided hiking tours?",
+    "What's unique about Knuckles Mountain Range?",
+    "Can you recommend a scenic hiking route?",
+    "Tell me about Adam's Peak trek.",
+    "Are there multi-day hiking options?",
+    "What's the elevation of Ella Rock?",
+    "Tell me about the tea plantations along hiking routes.",
+    "Suggest hikes with waterfall views.",
+    "What's the best time for hiking in Sri Lanka?",
+    "Tell me about the weather during hiking season.",
+    "What should I bring on a hiking trip?",
+    "Are hiking permits required?",
+    "Tell me about the safety measures for hiking.",
+    "What's the length of the Pidurangala hike?",
+    "Suggest hikes for wildlife spotting.",
+    "Can I do night hikes?",
+    "Tell me about the Knuckles Conservation Forest.",
+    "Are there hiking options near national parks?",
+    "What's the best way to reach Ella for hiking?",
+    "Suggest hikes for photography enthusiasts.",
+    "Tell me about the river crossings on hikes.",
+    "Are there hiking trails suitable for families?",
+    "Can I camp during multi-day hikes?",
+    "Tell me about the biodiversity on hiking trails.",
+    "Are there hiking clubs or groups in Sri Lanka?",
+    "What's the trail difficulty of Mini World's End?",
+    "Tell me about the cultural sites along hiking routes.",
+    "Are there self-guided hiking options?",
+    "What's the highest peak in Knuckles Range?",
+    "Tell me about the safety precautions for solo hikers.",
+    "Can I hike during the monsoon season?",
+    "Suggest hikes for bird watching.",
+    "Tell me about the eco-friendly practices on hiking trails.",
+    "Are there any age restrictions for certain hikes?",
+    "What's the significance of the Nine Arches Bridge hike?",
+    "Tell me about the different landscapes on hiking routes.",
+    "Are there rest stops along hiking trails?",
+    "What's the most challenging hike in Sri Lanka?",
+    "Tell me about the accommodation options for hikers.",
+    "Can I combine hiking with visits to cultural sites?",
+    "Is camping gear available for rent?"
+  ],
+  "responses": [
+    "Sri Lanka offers a variety of hiking trails, from the iconic Adam's Peak to the scenic Ella Rock and the diverse Knuckles Mountain Range."
+  ]
+},
+{
+  "tag": "hiking_budget",
+  "patterns": [
+    "How much does hiking in Sri Lanka cost?",
+    "What's the price range for hiking tours?",
+    "Tell me about the expenses for a hiking trip.",
+    "Can you give me an idea of hiking costs?",
+    "What's the budget for a trekking adventure?",
+    "Are hiking tours expensive?",
+    "How do hiking costs vary?",
+    "Is there a budget-friendly hiking option?",
+    "What's included in the cost of a hiking tour?",
+    "Are there any discounts for group hikes?"
+  ],
+  "responses": [
+    "The cost of hiking in Sri Lanka varies based on the trail, duration, and services included. On average, it can range from $20 to $80 per person."
+  ]
+},
+{
+  "tag": "hiking_recommendation",
+  "patterns": [
+    "Can you recommend a good hiking trail?",
+    "Which hiking route would you suggest?",
+    "Tell me about a popular trekking adventure.",
+    "What's your top hiking recommendation?",
+    "Give me a hiking option with stunning views.",
+    "Suggest a hike for nature enthusiasts.",
+    "I'm looking for a challenging hiking experience.",
+    "Recommend a family-friendly trek.",
+    "Which trail is best for waterfall views?",
+    "What's the best hike for photography?"
+  ],
+  "responses": ["hiking"]
+},
+{
+  "tag": "gems_shops",
+  "patterns": [
+    "Tell me about gems shops in Sri Lanka.",
+    "Recommend some places to buy gemstones.",
+    "Where can I find authentic gem shops?",
+    "What are the best gem shops?",
+    "I'm interested in purchasing gemstones.",
+    "Give me details about buying gems in Sri Lanka.",
+    "Tell me about popular places for gem shopping.",
+    "What's the quality of gemstones in Sri Lanka?",
+    "Suggest gem shops for beginners.",
+    "Where can I find certified gemstones?",
+    "Are there guided tours of gem shops?",
+    "What's unique about Sri Lankan gemstones?",
+    "Can you recommend a reputable gem shop?",
+    "Tell me about Ratnapura's gem market.",
+    "Are there gem shops with custom designs?",
+    "What's the significance of Ceylon sapphires?",
+    "Tell me about the process of buying gems.",
+    "Suggest gem shops with a wide variety.",
+    "What's the best time to buy gemstones?",
+    "Tell me about the pricing of different gemstones.",
+    "What should I look for in a trustworthy gem shop?",
+    "Are gem certifications important?",
+    "Tell me about the history of gem mining in Sri Lanka.",
+    "Suggest gem shops with ethical practices.",
+    "Can I find rare gemstones in Sri Lanka?",
+    "Tell me about gemstone cutting and polishing.",
+    "Are there gem shops near popular tourist areas?",
+    "What's the significance of blue sapphires?",
+    "Tell me about the different types of gemstones available.",
+    "Can you recommend gem shops with online sales?",
+    "Are there gem auctions in Sri Lanka?",
+    "Tell me about the importance of astrology in gem buying.",
+    "What's the most sought-after gem in Sri Lanka?",
+    "Tell me about the traditional art of gem cutting.",
+    "Suggest gem shops for collectors.",
+    "What's the role of gemstones in Sri Lankan culture?",
+    "Tell me about the 4 Cs of gemstone quality.",
+    "Are there gem shops that offer workshops?",
+    "What's the significance of moonstone in Sri Lanka?",
+    "Tell me about the authenticity of gem shops.",
+    "Can I buy loose gemstones for jewelry making?",
+    "Suggest gem shops with knowledgeable staff.",
+    "What's the history of the famous Blue Belle sapphire?",
+    "Tell me about gem mining sustainability.",
+    "Are there gem shops with government certification?",
+    "Tell me about the healing properties of gemstones.",
+    "Suggest gem shops with a long-standing reputation.",
+    "What's the connection between gems and Ayurveda?",
+    "Tell me about gemstone investment potential.",
+    "Can I get my purchased gemstones appraised?",
+    "Suggest gem shops with fair pricing policies.",
+    "Tell me about the craftsmanship of Sri Lankan gem artisans."
+  ],
+  "responses": [
+    "Sri Lanka is renowned for its gem shops that offer a wide variety of gemstones. You can explore places like Ratnapura, Beruwala, and Colombo for your gem shopping needs."
+  ]
+},
+{
+  "tag": "gems_recommendation",
+  "patterns": [
+    "Can you recommend a reliable gem shop?",
+    "Where can I find the best gemstones?",
+    "Suggest a gem shop with a wide variety.",
+    "Tell me about a popular place to buy gems.",
+    "I'm interested in purchasing high-quality gemstones.",
+    "Give me a suggestion for gem shopping.",
+    "Which gem shop is known for authenticity?",
+    "Where can I find unique and rare gemstones?",
+    "What's your top gem shop recommendation?",
+    "Suggest a gem store with ethical practices."
+  ],
+  "responses": ["gems Shops "]
+},
+{
+  "tag": "whale_watching",
+  "patterns": [
+    "Tell me about whale watching in Sri Lanka."
+  ],
+  "responses": [
+    "Whale watching in Sri Lanka is a remarkable experience, and the coastal areas of Mirissa, Kalpitiya, and Trincomalee are renowned for offering excellent whale sighting opportunities."
+  ]
+},
+{
+  "tag": "whale_watching_budget",
+  "patterns": [
+    "What's the average cost of a whale watching tour?",
+    "Can you provide information about the pricing for whale watching?",
+    "I'm looking for affordable whale watching options. Any recommendations?",
+    "What's a budget-friendly choice for a whale watching tour?",
+    "Tell me about the cost of whale watching in Sri Lanka.",
+    "Are there any economical whale watching packages available?",
+    "What's the price range for whale watching tours?",
+    "Can you suggest a cost-effective whale watching experience?",
+    "I'm interested in whale watching on a budget. Any tips?",
+    "Where can I find reasonably priced whale watching tours?"
+  ],
+  "responses": [
+    "Whale watching tour prices can vary based on location, duration, and inclusions. On average, a half-day tour may cost around $30 to $50, while full-day tours can range from $60 to $100 or more."
+  ]
+},
+{
+  "tag": "whale_watching_budget",
+  "patterns": [
+    "What's the average cost of a whale watching tour?",
+    "Can you provide information about the pricing for whale watching?",
+    "I'm looking for affordable whale watching options. Any recommendations?",
+    "What's a budget-friendly choice for a whale watching tour?",
+    "Tell me about the cost of whale watching in Sri Lanka.",
+    "Are there any economical whale watching packages available?",
+    "What's the price range for whale watching tours?",
+    "Can you suggest a cost-effective whale watching experience?",
+    "I'm interested in whale watching on a budget. Any tips?",
+    "Where can I find reasonably priced whale watching tours?"
+  ],
+  "responses": [
+    "Whale watching tour prices can vary based on location, duration, and inclusions. On average, a half-day tour may cost around $30 to $50, while full-day tours can range from $60 to $100 or more."
+  ]
+},
+{
+  "tag": "whale_watching_recommendation",
+  "patterns": [
+    "Can you recommend a great whale watching tour?",
+    "Where can I find the best whale watching experience?",
+    "Suggest a reputable company for whale watching.",
+    "What's the top choice for a memorable whale watching tour?",
+    "I'm looking for the ultimate whale watching adventure. Any suggestions?",
+    "Give me a recommendation for a high-quality whale watching tour.",
+    "What's your top pick for a successful whale watching experience?",
+    "Suggest a reliable operator for whale watching in Sri Lanka.",
+    "I want to make the most of my whale watching trip. Any recommendations?",
+    "Tell me about the best whale watching options in Sri Lanka."
+  ],
+  "responses": ["whale watching"]
+},
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  }
+]}
